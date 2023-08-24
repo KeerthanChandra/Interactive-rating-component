@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+.body{
+    font-family: "Overpass";
+    font-size: 15px;
+    width: auto;
+    height: 900px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.complete{
+    font-family: "Overpass";
+    width: 375px;
+    height: 400px;
+    padding: 20px 20px;
+    margin: auto;
+    background-image: linear-gradient(to top,hsl(216, 12%, 8%),hsl(211, 19%, 26%));
+    border-radius: 30px;
+    position: relative;
+    top: 200px;
+    align-items: center;
+    
+}
+.thank-you{
+    font-family: "Overpass";
+    width: 375px;
+    height: 400px;
+    padding: 20px ;
+    margin: auto;
+    background-image: linear-gradient(to top,hsl(216, 12%, 8%),hsl(211, 19%, 26%));
+    border-radius: 30px;
+    margin-left: 50px;
+    position: relative;
+    top: 200px;
+    left: 650px;
+    align-items: center; 
+   
+    
+}
+.middle_box{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(210, 10%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: -50px;
+    
+
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(211, 19%, 26%);
+    color: #cec5c5;
+    font-size: large;
+}
+
+.submit{
+    width: 370px;
+    height: 20px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: center;
+    color:hsl(0, 0%, 100%) ;
+    background-color:hsl(25, 97%, 53%) ;
+    border-radius: 25px;
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+    transform: 0.3s;
+    letter-spacing: 0.1rem;
+
+}
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);;
+}
+.btn:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+.hidden{
+    display:  none;
+}
+.submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: #fff;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
